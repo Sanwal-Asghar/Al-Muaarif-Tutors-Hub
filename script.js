@@ -1,6 +1,6 @@
 
 
-   // navbar Hamburger Js...............................................
+   //  Hamburger Js...............................................
 document.addEventListener("DOMContentLoaded", () => {
     const menuBtn = document.getElementById('menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
             // 'hidden' class ko toggle karega
             mobileMenu.classList.toggle('hidden');
         });
-
         // Jab mobile menu ke kisi link par click ho to menu band ho jaye
         const menuLinks = mobileMenu.querySelectorAll('a');
         menuLinks.forEach(link => {
