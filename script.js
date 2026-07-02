@@ -1,5 +1,10 @@
 
 
+
+
+
+
+
    //  Hamburger Js...............................................
 document.addEventListener("DOMContentLoaded", () => {
     const menuBtn = document.getElementById('menu-btn');
@@ -157,4 +162,9 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 //         });
 // });
 
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('.bg-white'),
+    smooth: true
+});
 
