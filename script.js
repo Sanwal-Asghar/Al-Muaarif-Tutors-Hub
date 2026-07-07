@@ -1,10 +1,6 @@
 
 
 
-
-
-
-
    //  Hamburger Js...............................................
 document.addEventListener("DOMContentLoaded", () => {
     const menuBtn = document.getElementById('menu-btn');
@@ -100,9 +96,6 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     
     window.open(whatsappUrl, '_blank');
 });
-
-
-
 
 
 
