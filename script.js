@@ -69,10 +69,10 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault(); // Form ko page reload karne se rokne ke liye
 
     // 1. Apna WhatsApp number yahan likhein (Country code ke sath, bina '+' ya zeros ke)
-    const whatsappNumber = "923057204748"; // <-- Isko apne number se change kar lein
+    const whatsappNumber = "923169646444"; // <-- Isko apne number se change kar lein
 
     // 2. Form ki saari values nikalna
-    const firstName = document.getElementById('firstName').value.trim();
+    const firstName = document.getElementById('firstName').value.trim(); 
     const lastName = document.getElementById('lastName').value.trim();
     const email = document.getElementById('email').value.trim();
     const phone = document.getElementById('phone').value.trim() || "Not Provided";
